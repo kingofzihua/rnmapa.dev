@@ -45,8 +45,8 @@ npm run android
 #### iOS
 To use the Location component for positioning functionality, add location permissions to info.plist:
 ```
-<key>MGLMapboxAccessToken</key>
-<string>sk.XXX</string>
+ <key>NSLocationWhenInUseUsageDescription</key>
+ <string>Show current location on map.</string>
 ```
 #### Android
 To use the Location component for positioning functionality, add location permissions to `android/app/src/main/AndroidManifest.xml`:
